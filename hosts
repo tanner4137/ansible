@@ -1,0 +1,13 @@
+[ubuntu]
+#terry
+10.10.2.101
+#svr-ghostvm-01
+10.10.30.185
+#svr-rancher-01
+10.10.30.104
+#svr-ombiprod-01
+10.10.30.199
+#svr-awx-01
+10.10.30.113
+#svr-wireguard-01
+10.10.40.225
