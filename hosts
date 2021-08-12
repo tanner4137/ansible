@@ -1,5 +1,5 @@
 [ubuntu]
-#terry
+#svr-plex-01
 10.10.2.101
 #svr-ghostvm-01
 10.10.30.185
@@ -7,7 +7,25 @@
 10.10.30.104
 #svr-ombiprod-01
 10.10.30.199
-#svr-awx-01
-10.10.30.113
 #svr-wireguard-01
 10.10.40.225
+#svr-docker-01
+10.10.80.192
+#svr-nessus-01
+10.10.110.6
+#svr-internalnginx-01
+10.10.80.97
+#svr-ansible-01
+10.10.30.149
+#kube-master-01
+10.10.70.166
+#kube-node-01
+10.10.70.202
+#kube-node-02
+10.10.70.94
+#kube-node-03
+10.10.70.84
+#kube-rancher-01
+10.10.70.95
+#aws
+ec2-13-59-7-216.us-east-2.compute.amazonaws.com ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/tcude/.ssh/keypair-main.pem
