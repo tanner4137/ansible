@@ -10,6 +10,8 @@
       - neofetch
 
   tasks:
+    - name: Install Prerequisites
+      apt: name=aptitude update_cache=yes state=latest force_apt_get=yes      
     - name: Ensure a list of packages installed
       update_cache: yes
       package:
