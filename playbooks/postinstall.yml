@@ -1,0 +1,20 @@
+- hosts: "*"
+  become: yes
+  vars:
+    user:
+      - name: "tcude"
+    packages:
+      - wget
+      - scdu
+      - htop
+      - neofetch
+
+  tasks:
+    - name: Ensure a list of packages installed
+      update_cache: yes
+      package:
+        name: "{{ packages }}"
+        state: latest
+    - name: All done!
+      debug:
+        msg: Packages have been successfully installe
