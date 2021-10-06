@@ -17,4 +17,4 @@
         state: latest
     - name: All done!
       debug:
-        msg: Packages have been successfully installe
+        msg: All packages have been successfully installed
