@@ -3,8 +3,6 @@
 10.10.2.101
 #svr-ghostvm-01
 10.10.30.185
-#svr-rancher-01
-10.10.30.104
 #svr-ombiprod-01
 10.10.30.199
 #svr-wireguard-01
@@ -26,15 +24,13 @@
 #svr-jumpbox-01
 #10.10.80.20
 #svr-usenet-01
-10.10.80.207
+#10.10.80.207
 #svr-vault-01
-10.10.80.3
+#10.10.80.3
 #svr-consul-01
-10.10.80.214
-#svr-bulkseed-01
-10.10.80.164
+#10.10.80.214
 #svr-games-01
-10.10.30.227
+#10.10.30.227
 
 #aws
 ec2-13-59-7-216.us-east-2.compute.amazonaws.com ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/tcude/.ssh/keypair-main.pem
