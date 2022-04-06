@@ -16,5 +16,7 @@ svr-docspell-01.tcudelocal.net
 svr-graylog-01.tcudelocal.net
 ct-plex-01.tcudelocal.net
 
+#test for commit
+
 [install_docker]
 svr-ansibletest-01.tcudelocal.net
