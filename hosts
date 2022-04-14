@@ -15,6 +15,7 @@ svr-adguard-02.tcudelocal.net
 svr-docspell-01.tcudelocal.net
 svr-graylog-01.tcudelocal.net
 ct-plex-01.tcudelocal.net
+svr-cloudflared-01.tcudelocal.net
 
 #test for commit
 
