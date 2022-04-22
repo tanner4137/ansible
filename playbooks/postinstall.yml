@@ -1,22 +1,15 @@
-- hosts: "*"
-  become: yes
+---
+- name: install packages
+  hosts: install_docker
+  become: true
   vars:
     user:
       - name: "tcude"
     packages:
-      - wget
-      - scdu
-      - htop
       - neofetch
-
+      - htop
   tasks:
-    - name: Install Prerequisites
-      apt: name=aptitude update_cache=yes state=latest force_apt_get=yes      
-    - name: Ensure a list of packages installed
-      update_cache: yes
-      package:
-        name: "{{ packages }}"
-        state: latest
-    - name: All done!
-      debug:
-        msg: All packages have been successfully installed
+  - name: install packages
+    apt:
+      name: "{{ packages }}"
+      state: present
