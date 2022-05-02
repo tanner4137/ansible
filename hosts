@@ -12,13 +12,14 @@ svr-librenms-01.tcudelocal.net
 svr-minecraft-01.tcudelocal.net
 svr-adguard-01.tcudelocal.net
 svr-adguard-02.tcudelocal.net
-svr-docspell-01.tcudelocal.net
-svr-graylog-01.tcudelocal.net
+#svr-docspell-01.tcudelocal.net
+#svr-graylog-01.tcudelocal.net
 ct-plex-01.tcudelocal.net
 svr-cloudflared-01.tcudelocal.net
 svr-splunk-01.tcudelocal.net
 svr-nessus-external-01.tcudelocal.net
 svr-nessus-internal-01.tcudelocal.net
+svr-portainer-01.tcudelocal.net
 
 #test for commit
 

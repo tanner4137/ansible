@@ -1,12 +1,13 @@
 ---
 - name: install packages
-  hosts: install_docker
+  hosts: ubuntu
   become: true
   vars:
     user:
       - name: "tcude"
     packages:
       - neofetch
+      - qemu-guest-agent
       - htop
   tasks:
   - name: install packages
