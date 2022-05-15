@@ -20,6 +20,8 @@ svr-splunk-01.tcudelocal.net
 svr-nessus-external-01.tcudelocal.net
 svr-nessus-internal-01.tcudelocal.net
 svr-portainer-01.tcudelocal.net
+svr-pykms-01.tcudelocal.net
+
 
 #test for commit
 
