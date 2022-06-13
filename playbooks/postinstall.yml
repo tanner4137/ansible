@@ -9,6 +9,7 @@
       - neofetch
       - qemu-guest-agent
       - htop
+      - ncdu 
   tasks:
   - name: install packages
     apt:
