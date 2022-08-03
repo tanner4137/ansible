@@ -26,4 +26,4 @@ svr-pykms-01.tcudelocal.net
 #test for commit
 
 [install_docker]
-svr-ansibletest-01.tcudelocal.net
+10.10.80.42
