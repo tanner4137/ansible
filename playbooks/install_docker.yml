@@ -56,7 +56,7 @@
     remote_user: tcude
     user:
       name: "tcude"
-      group: "docker"
+      groups: "docker"
       append: yes
     tags:
       - docker
